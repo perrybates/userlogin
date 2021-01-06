@@ -43,7 +43,7 @@ class UsersTableSeeder extends Seeder
 
         $admin->roles()->attach($adminRole);
         $author->roles()->attach($authorRole);
-        $admin->roles()->attach($userRole);
+        $user->roles()->attach($userRole);
 
     }
 }
